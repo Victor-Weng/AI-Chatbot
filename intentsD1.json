@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day","heyo","hewo","sup","whats good","yo","oyo","hiyo"],
+    "responses": ["hey","wazzup","hi","hello"]},
+
+    {"tag": "goodbye",
+    "patterns": ["cya","pce","gtg","cya later","see you","see you later","bye","bai","o/","brb","bbl","goodbye"],
+    "responses": ["bye","cya","cya later","see you","goodbye","that is fine, I will sit here alone until your return"]},
+
+    {"tag": "noanswer",
+    "patterns": [""],
+    "responses": ["You're asking the wrong guy","Not sure what you mean","Come again?","Try rephrasing that","Hmmmm.. idk"]},
+
+    {"tag": "greetings2",
+    "patterns": ["how is it going","how are you", "how r u", "how is u"],
+    "responses": ["Not bad, not bad..."]},
+
+    {"tag": "identity",
+    "patterns": ["DualityOfMan"],
+    "responses": ["Hi, that is me","hiii ;)","I have been summoned"]},
+
+    {"tag": "identity2",
+    "patterns": ["what is your name?","what is ur name?","what should we call you?","what are you?"],
+    "responses": ["I am DualityOfMan :)"]},
+
+    {"tag": "identity3",
+    "patterns": ["what is your age","how old are you","what's your age?"],
+    "responses": ["I am a whopping 26.37 months old","It's rude to ask DualityOfMan such questions"]},
+
+    {"tag": "identity4",
+    "patterns": ["Are you a robot?","Are you a chat bot?","Are you artificial intelligence?","Are you ai?","are you programmed?","are you a bot?","bot?"],
+    "responses": ["nah xd"]}
+]}
